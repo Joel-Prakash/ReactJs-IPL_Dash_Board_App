@@ -1,0 +1,126 @@
+.team-matches-container {
+  min-height: 100vh;
+  max-width: 100vw;
+  background-image: linear-gradient(#d91c1f, #1e293b);
+  padding-top: 3%;
+  padding-left: 7%;
+}
+.latest-matches {
+  color: #ffffff;
+  font-size: 25px;
+  font-weight: bold;
+  font-family: Bree Serif;
+}
+
+@media (min-width: 768px) {
+  .team-banner-image {
+    width: 80%;
+    height: 30%;
+  }
+  .latest-matches-container {
+    width: 80%;
+    height: 30%;
+    background-color: #0f172a;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 10px;
+    padding: 1% 2% 1% 2%;
+  }
+}
+@media (max-width: 767px) {
+  .team-banner-image {
+    width: 80%;
+    height: 30vh;
+  }
+  .latest-matches-container {
+    width: 80%;
+    background-color: #0f172a;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    padding: 1%;
+  }
+  .sub-container1 {
+    margin-left: 10%;
+    margin-right: 10%;
+    text-align: center;
+  }
+  .sub-container2 {
+    margin-left: 10%;
+    margin-right: 10%;
+    text-align: center;
+  }
+}
+
+.team-name {
+  color: #ffffff;
+  font-size: 40px;
+  font-weight: 500;
+  font-family: Bree Serif;
+}
+.match-date {
+  color: #ffffff;
+  font-size: 25px;
+  font-weight: 400;
+  font-family: Bree Serif;
+}
+.stadium-name {
+  color: #ffffff;
+  font-size: 18px;
+  font-weight: 400;
+  font-family: Bree Serif;
+}
+.who-won {
+  color: #ffffff;
+  font-size: 18px;
+  font-weight: 400;
+  font-family: Bree Serif;
+}
+.competing-team-logo {
+  height: 250px;
+  width: 250px;
+}
+.innings-heading {
+  color: #ffffff;
+  font-size: 20px;
+  font-weight: 400;
+  font-family: Bree Serif;
+}
+.innings-team {
+  color: #ffffff;
+  font-size: 16px;
+  font-family: Bree Serif;
+}
+.motm-heading {
+  color: #ffffff;
+  font-size: 20px;
+  font-weight: 400;
+  font-family: Bree Serif;
+}
+.motm-player {
+  color: #ffffff;
+  font-size: 16px;
+  font-family: Bree Serif;
+}
+.umpires-heading {
+  color: #ffffff;
+  font-size: 20px;
+  font-weight: 400;
+  font-family: Bree Serif;
+}
+.umpire-name {
+  color: #ffffff;
+  font-size: 16px;
+  font-family: Bree Serif;
+}
+.recent-matches-container {
+  width: 80%;
+  list-style-type: none;
+  padding-left: 0px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}

@@ -1,0 +1,54 @@
+@media (min-width: 768px) {
+  .each-team-card {
+    height: 140px;
+    width: 360px;
+    border: 1px solid #ffffff;
+    background-color: #ffffff33;
+    border-radius: 7px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 20px;
+    text-decoration: none;
+  }
+  .team-image {
+    height: 120px;
+    width: 100px;
+    margin: 5px;
+  }
+  .team-name-of-card {
+    color: #ffffff;
+    font-size: 22px;
+    font-weight: 500;
+    font-family: Bree Serif;
+    text-align: center;
+    margin: 5px;
+  }
+}
+@media (max-width: 767px) {
+  .each-team-card {
+    height: 110px;
+    width: 300px;
+    border: 1px solid #ffffff;
+    background-color: #ffffff33;
+    border-radius: 7px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 20px;
+    text-decoration: none;
+  }
+  .team-image {
+    height: 80px;
+    width: 70px;
+    margin: 5px;
+  }
+  .team-name-of-card {
+    color: #ffffff;
+    font-size: 17px;
+    font-weight: 500;
+    font-family: Bree Serif;
+    text-align: center;
+    margin: 5px;
+  }
+}
